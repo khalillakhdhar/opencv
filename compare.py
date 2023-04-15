@@ -9,3 +9,5 @@ cv2.imshow("image de différence",imgout)
 cv2.waitKey(0)
 # afficher la différence entre les images
 print("MSE: {}".format(mse))
+#ssim = cv2.compare_ssim(image1, image2, multichannel=True)
+#print('SSIM:', ssim)
