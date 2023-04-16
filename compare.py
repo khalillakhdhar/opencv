@@ -11,3 +11,7 @@ cv2.waitKey(0)
 print("MSE: {}".format(mse))
 #ssim = cv2.compare_ssim(image1, image2, multichannel=True)
 #print('SSIM:', ssim)
+if(mse<0.1):
+    print("les images sont identiques")
+else:
+    print("les images ne sont pas identiques")
